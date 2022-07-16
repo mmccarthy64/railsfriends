@@ -36,6 +36,7 @@ default: &default
   extensions:
     - .mjs
     - .js
+    - .jsx
     - .sass
     - .scss
     - .css
@@ -74,7 +75,6 @@ development:
       'Access-Control-Allow-Origin': '*'
     watch_options:
       ignored: '**/node_modules/**'
-
 
 test:
   <<: *default
